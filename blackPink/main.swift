@@ -7,5 +7,14 @@
 
 import Foundation
 
-print("Hello, World!")
+let topTenCoutriesIWantVisit = ["France", "England", "United States", "Australia", "Mexico", "Japan", "Korea", "German", "Brazil", "Colombia"]
 
+print(topTenCoutriesIWantVisit[0])
+print(topTenCoutriesIWantVisit[4])
+print(topTenCoutriesIWantVisit[9])
+
+print("--------------------")
+
+for cities in topTenCoutriesIWantVisit {
+    print(cities)
+}
